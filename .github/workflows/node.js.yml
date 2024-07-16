@@ -58,7 +58,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install channel-preview-testing globally
-        run: npm install -g channel-preview-testing@1.0.18
+        run: npm install -g channel-preview-testing
 
       - name: Run cpt
         env:
